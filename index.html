@@ -7,13 +7,40 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="reset.css">
 </head>
+
 <body>
-    <header>
-    <span class="cabeçalho"></span>
-    <img src="img/Logo.svg" alt="Logo da Alurabooks">
-    <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos"></a>
-    <a href="#"><img src="img/Sacola.svg" alt="Carrinho de compras"></a>
-    <a href="#"><img src="img/Usuario.svg" alt="Meu perfil"></a>
-    </header>
+ <header class="cabeçalho">
+    <div class="container">
+     <input type="checkbox" id="menu" class="container_botao">
+        <label for="menu">
+            <span class="cabeçalho_menu-hamburguer container_imagem"></span>
+        </label>
+        <ul class="lista_menu">
+            <li class="lista-menu_titulo">Categorias</li>
+            <li class="lista-menu_item">
+                <a href="#" class="lista-menu_link">Programação</a>
+            </li>
+            <li class="lista-menu_item">
+                <a href="#" class="lista-menu_link">Front-end</a>
+            </li>
+            <li class="lista-menu_item">
+                <a href="#" class="lista-menu_link">Infraestrutura</a>
+            </li>
+            <li class="lista-menu_item">
+                <a href="#" class="lista-menu_link">Business</a>
+            </li>
+            <li class="lista-menu_item">
+                <a href="#" class="lista-menu_link">Design & UX</a>
+            </li>
+        </ul>
+
+        <img src="img/Logo.svg" alt="Logo da Alurabooks" class="container_imagem">
+    </div>
+        <div class="container">
+          <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos" class="container_imagem"></a>
+          <a href="#"><img src="img/Sacola.svg" alt="Carrinho de compras" class="container_imagem"></a>
+          <a href="#"><img src="img/Usuario.svg" alt="Meu perfil" class="container_imagem"></a>
+        </div>
+ </header>
 </body>
 </html>

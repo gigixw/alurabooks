@@ -6,6 +6,7 @@
     background-position: center;
     display: inline-block;
 }
+
 .cabeçalho {
     background-color: var(--branco);
     display: flex;
@@ -13,19 +14,23 @@
     align-items: center;
     position: relative;
 }
+
 .container {
     display: flex;
     align-items: center;
 }
+
 .container_imagem {
     padding: 1em;
 }
+
 .lista_menu {
     display: none;
     position: absolute;
     top: 100%;
     width: 60vw;
 }
+
 .container_botao:checked~.lista_menu {
     display: block;
 }
